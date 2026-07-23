@@ -1,0 +1,15 @@
+[package]
+org = "danniles"
+name = "tripplanner"
+version = "0.1.0"
+distribution = "2201.13.4"
+title = "Trip Planner"
+
+[[dependency]]
+org = "ballerina"
+name = "ai"
+version = "1.11.3"
+repository = "local"
+
+[build-options]
+observabilityIncluded = true

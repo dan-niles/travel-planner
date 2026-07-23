@@ -1,0 +1,12 @@
+[workspace]
+title = "travel_planner"
+packages = [
+    "tripplanner",
+    "destinationresearch",
+    "logistics",
+    "budget",
+    "weatheranalyst",
+    "attractionsscout",
+    "flightfinder",
+    "hotelfinder"
+]
