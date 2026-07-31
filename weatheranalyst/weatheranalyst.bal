@@ -2,7 +2,7 @@ import ballerina/ai;
 
 # A weather analyst that gives travelers a concise seasonal outlook for a destination.
 public isolated class WeatherAnalystAgent {
-    *ai:FixedReturnAgentType;
+    *ai:FixedTypedAgent;
 
     private final ai:Agent agent;
 

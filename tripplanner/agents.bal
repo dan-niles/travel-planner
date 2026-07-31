@@ -72,3 +72,6 @@ Budget. Base every detail strictly on what the specialists return — do not inv
     model = wso2ModelProvider,
     tools = [destinationResearchTool, logisticsTool, budgetTool]
 );
+final ai:Agent mathTutorAgent = check new (
+    systemPrompt = {role: string `math tutor`, instructions: string `teach math`}, model = check ai:getDefaultModelProvider()
+);

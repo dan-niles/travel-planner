@@ -2,7 +2,7 @@ import ballerina/ai;
 
 # A hotel finder that returns a few stay options for a destination.
 public isolated class HotelFinderAgent {
-    *ai:FixedReturnAgentType;
+    *ai:FixedTypedAgent;
 
     private final ai:Agent agent;
 

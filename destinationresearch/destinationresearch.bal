@@ -6,7 +6,7 @@ import danniles/weatheranalyst;
 # A destination researcher. Builds a short profile of a place by delegating to its own
 # sub-agents: a Weather Analyst and an Attractions Scout.
 public isolated class DestinationResearchAgent {
-    *ai:FixedReturnAgentType;
+    *ai:FixedTypedAgent;
 
     private final ai:Agent agent;
     private final weatheranalyst:WeatherAnalystAgent weatherAgent;

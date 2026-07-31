@@ -6,7 +6,7 @@ import danniles/hotelfinder;
 # A logistics coordinator. Arranges getting there and staying there by delegating to its
 # own sub-agents: a Flight Finder and a Hotel Finder.
 public isolated class LogisticsCoordinatorAgent {
-    *ai:FixedReturnAgentType;
+    *ai:FixedTypedAgent;
 
     private final ai:Agent agent;
     private final flightfinder:FlightFinderAgent flightAgent;

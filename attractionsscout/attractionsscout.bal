@@ -2,7 +2,7 @@ import ballerina/ai;
 
 # A local scout that recommends things to do at a destination, tuned to a traveler's interest.
 public isolated class AttractionsScoutAgent {
-    *ai:FixedReturnAgentType;
+    *ai:FixedTypedAgent;
 
     private final ai:Agent agent;
 

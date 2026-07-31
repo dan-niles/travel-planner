@@ -2,7 +2,7 @@ import ballerina/ai;
 
 # A budget analyst. Totals the cost of a trip from raw figures and checks it against a budget.
 public isolated class BudgetAnalystAgent {
-    *ai:FixedReturnAgentType;
+    *ai:FixedTypedAgent;
 
     private final ai:Agent agent;
 

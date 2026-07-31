@@ -2,7 +2,7 @@ import ballerina/ai;
 
 # A flight finder that returns a few route options for a trip.
 public isolated class FlightFinderAgent {
-    *ai:FixedReturnAgentType;
+    *ai:FixedTypedAgent;
 
     private final ai:Agent agent;
 
