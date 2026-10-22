@@ -2,12 +2,8 @@
 org = "danniles"
 name = "destinationresearch"
 version = "0.1.0"
-distribution = "2201.13.4"
+distribution = "2201.14.1"
 title = "Destination Researcher"
 keywords = ["Type/Agent"]
 
-[[dependency]]
-org = "ballerina"
-name = "ai"
-version = "1.13.0"
-repository = "local"
+
